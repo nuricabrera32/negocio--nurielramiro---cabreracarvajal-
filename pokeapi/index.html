@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragonite - PokeAPI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #ffcb05;
+            border: none;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #cc9b00;
+        }
+        #resultado {
+            margin-top: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Pokemon Destacado: Dragonite</h2>
+        <button id="btnCargar">Ver Datos de Dragonite</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <!-- Enlazamos el archivo JavaScript separado -->
+    <script src="app.js"></script>
+</body>
+</html>
